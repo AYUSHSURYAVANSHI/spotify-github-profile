@@ -1,0 +1,68 @@
+/* General body and background */
+body, .main-root, .main-view-container {
+  background-color: #f5f5f7 !important; /* Light grey background */
+  color: #000 !important; /* Black text color */
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif !important;
+}
+
+/* Header bar */
+.main-topBar-container {
+  background-color: #fff !important; /* White top bar */
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1); /* Subtle shadow for a floating effect */
+}
+
+.main-topBar-container .main-topBar-button {
+  color: #007aff !important; /* Apple Music's blue button color */
+}
+
+.main-topBar-container .main-topBar-playButton {
+  background-color: #007aff !important; /* Blue play button */
+  color: #fff !important; /* White icon */
+}
+
+/* Sidebar */
+.main-navBar-navBar {
+  background-color: #ffffff !important; /* White sidebar */
+}
+
+.main-navBar-item, .main-navBar-item:hover {
+  color: #007aff !important; /* Blue text for sidebar items */
+}
+
+.main-navBar-item:active {
+  color: #1d1d1f !important; /* Dark grey when active */
+}
+
+/* Album and playlist cards */
+.main-card-container .main-card-image {
+  border-radius: 8px !important; /* Slightly rounded corners */
+}
+
+.main-card-container .main-card-header {
+  color: #000 !important; /* Black titles for albums and playlists */
+}
+
+/* Player controls */
+.main-nowPlayingBar-container {
+  background-color: #ffffff !important; /* White player background */
+  box-shadow: 0 -2px 4px rgba(0,0,0,0.1); /* Subtle shadow for floating effect */
+}
+
+.main-nowPlayingBar-container .main-nowPlayingBar-button {
+  color: #007aff !important; /* Blue control buttons */
+}
+
+.main-nowPlayingBar-progressBar {
+  background-color: #d3d3d3 !important; /* Light grey progress bar background */
+}
+
+.main-nowPlayingBar-progressBar .main-progressBar-progress {
+  background-color: #007aff !important; /* Blue progress */
+}
+
+/* Search bar */
+.main-searchBar-searchInput {
+  background-color: #e5e5ea !important; /* Light grey background for the search bar */
+  color: #000 !important; /* Black text */
+  border-radius: 8px !important; /* Rounded corners */
+}
